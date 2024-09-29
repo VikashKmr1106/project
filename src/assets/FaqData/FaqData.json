@@ -1,0 +1,39 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How do I create a new FAQ?",
+      "answer": "To create a new FAQ, go to the FAQs section of the admin panel and click the 'Add FAQ' button. Fill in the question and answer fields, then click 'Save'."
+    },
+    {
+      "id": 2,
+      "question": "Can I edit or delete existing FAQs?",
+      "answer": "Yes, you can edit or delete existing FAQs by clicking on the corresponding edit or delete buttons. Make sure to save your changes before leaving the page."
+    },
+    {
+      "id": 3,
+      "question": "What happens if I accidentally delete a FAQ?",
+      "answer": "If you accidentally delete a FAQ, you can recover it by clicking on the 'Restore' button. Make sure to backup your data before doing this."
+    },
+    {
+      "id": 4,
+      "question": "Can I search for FAQs by keywords?",
+      "answer": "Yes, you can search for FAQs by keywords by typing them into the search bar and clicking the 'Search' button. You can also use the filter options to narrow down your search results."
+    },
+    {
+      "id": 5,
+      "question": "Can I order the FAQs in a specific order?",
+      "answer": "Yes, you can order the FAQs in a specific order by clicking on the 'Sort' button and selecting the desired sorting option. You can also use the drag and drop feature to rearrange the FAQs."
+    },
+    {
+      "id": 6,
+      "question": "What happens if I have a lot of FAQs?",
+      "answer": "If you have a lot of FAQs, you can use the pagination feature to navigate through them. You can also use the filter options to narrow down your search results and the sorting options to order the FAQs."
+    },
+    {
+      "id": 7,
+      "question": "Can I customize the appearance of the FAQs on the frontend?",
+      "answer": "Yes, you can customize the appearance of the FAQs on the frontend by modifying the CSS styles in the 'custom.css' file located in the 'public' folder. You can also use the theme options provided by the theme builder to create your own custom theme."
+    }
+  ]
+}
