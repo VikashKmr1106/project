@@ -1,0 +1,33 @@
+{
+  "Todo": [
+    "Design Ui Mockup",
+		"Create React App",
+    "Setup Tailwind CSS",
+    "Setup Vite",
+    "Setup ESLint",
+    "Setup Prettier"
+  ],
+	"In Progress": [
+    "Create Accordion Component",
+    "Create FAQ Component",
+    "Create Tabs Component",
+    "Create Traffic Light Component",
+		"Create Toast Component",
+    "Create Transtack Query Component",
+    "Create Fetch Old Component"
+  ],
+  "Completed": [ 
+		"Setup Tailwind CSS",
+    "Setup Vite",
+    "Setup ESLint",
+    "Setup Prettier",
+    "Create Sidebar Component",
+    "Create Accordion Component",
+    "Create FAQ Component",
+    "Create Tabs Component",
+    "Create Traffic Light Component",
+    "Create Toast Component",
+    "Create Transtack Query Component",
+    "Create Fetch Old Component"
+  ]
+}

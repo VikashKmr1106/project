@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import './App.css';
 import data from './assets/FaqData/FaqData.json';
 import tabData from './assets/TabData/TabData.json';
+import initialData from './assets/DragAndDropData/DragAndDropData.json'
 
 import Sidebar from './components/Sidebar/Sidebar';
 import Accordion from './pages/Accordion/Accordion';
@@ -13,6 +14,7 @@ import TrafficLight from './pages/TrafficLight/TrafficLight';
 import ToastContainer from './pages/ToastContainer/ToastContainer';
 import TranstackQuery from './pages/TanstackQuery/TranstackQuery';
 import FetchOld from './pages/FetchOld/FetchOld';
+import DragAndDrop from './pages/DragAndDrop/DragAndDrop';
 
 const App = () => {
   const onTabChangeHandler = (index, tab) => {
@@ -33,6 +35,7 @@ const App = () => {
             <Route path="/toast" element={<ToastContainer/>} />
             <Route path="/tanstack" element={<TranstackQuery/>} />
             <Route path="/fetchold" element={<FetchOld/>} />
+            <Route path="/draganddrop" element={<DragAndDrop initialData={initialData}/>} />  
           </Routes>
         </div>
       </div>

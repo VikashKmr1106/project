@@ -11,6 +11,7 @@ const Sidebar = () => {
     { name: 'Toast', path: '/toast' },
     { name: 'TanStack Query', path: '/tanstack' },
     { name: 'Fetch Old Way ', path: '/fetchold' },
+    { name: 'Drag and Drop ', path: '/draganddrop' },
   ];
 
   return (
