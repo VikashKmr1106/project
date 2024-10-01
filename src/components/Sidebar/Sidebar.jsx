@@ -9,6 +9,8 @@ const Sidebar = () => {
     { name: 'Tabs', path: '/tabs' },
     { name: 'Traffic Light', path: '/trafficlight' },
     { name: 'Toast', path: '/toast' },
+    { name: 'TanStack Query', path: '/tanstack' },
+    { name: 'Fetch Old Way ', path: '/fetchold' },
   ];
 
   return (

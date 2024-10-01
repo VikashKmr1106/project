@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+
 import './App.css';
 import data from './assets/FaqData/FaqData.json';
 import tabData from './assets/TabData/TabData.json';
@@ -10,6 +11,8 @@ import AccordionFAQ from './pages/AccordionFAQ/AccordionFAQ';
 import Tabs from './pages/Tabs/Tabs';
 import TrafficLight from './pages/TrafficLight/TrafficLight';
 import ToastContainer from './pages/ToastContainer/ToastContainer';
+import TranstackQuery from './pages/TanstackQuery/TranstackQuery';
+import FetchOld from './pages/FetchOld/FetchOld';
 
 const App = () => {
   const onTabChangeHandler = (index, tab) => {
@@ -28,6 +31,8 @@ const App = () => {
             <Route path="/tabs" element={<Tabs tabData={tabData} onChange={onTabChangeHandler} />} />
             <Route path="/trafficlight" element={<TrafficLight/>} />
             <Route path="/toast" element={<ToastContainer/>} />
+            <Route path="/tanstack" element={<TranstackQuery/>} />
+            <Route path="/fetchold" element={<FetchOld/>} />
           </Routes>
         </div>
       </div>
