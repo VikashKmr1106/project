@@ -14,6 +14,7 @@ const TranstackQuery = () => {
         throw new Error(error);
       }
     },
+    gcTime: 1000,
 		// staleTime: 5 * 60 * 1000,
     staleTime: Infinity,  // Data never becomes stale
     cacheTime: Infinity,  // Cache data forever unless invalidated
