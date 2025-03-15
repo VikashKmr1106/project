@@ -33,7 +33,7 @@ const ToastContainer = () => {
 
 	return (
 		<>
-			<div className='relative w-[100vh] h-[97vh] bg-green-50 overflow-hidden'>
+			<div className='relative  overflow-hidden'>
 				{/* Render multiple toasts */}
 				<div className="toast-wrapper fixed top-6 right-6 flex flex-col gap-2">
 					{toasts.map((toast) => (
@@ -53,7 +53,7 @@ const ToastContainer = () => {
 					))}
 				</div>
 
-				<div className="buttonContainer flex gap-2 mt-8">
+				<div className="buttonContainer flex gap-2">
 					<button
 						className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded'
 						onClick={() => handleShowToast('Success Toast', 'success')}

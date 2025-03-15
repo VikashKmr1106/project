@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
   // Array of pages to be rendered in the sidebar
   const pages = [
+    {name: "Todo App" , path : "/todoapp"},
     { name: 'Accordion', path: '/accordion' },
     { name: 'AccordionFAQ', path: '/accordionfaq' },
     { name: 'Tabs', path: '/tabs' },
@@ -12,6 +13,7 @@ const Sidebar = () => {
     { name: 'TanStack Query', path: '/tanstack' },
     { name: 'Fetch Old Way ', path: '/fetchold' },
     { name: 'Drag and Drop ', path: '/draganddrop' },
+    { name: 'Checkbox', path: '/checkbox' },
   ];
 
   return (
